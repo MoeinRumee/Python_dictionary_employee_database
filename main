@@ -1,0 +1,28 @@
+# TODO: Create a Python dictionary to serve as a hash table
+employee_database = {}
+
+# TODO: Add employee names with their roles to the dictionary
+employee_database[1] = {"John Doe, CEO"}
+employee_database[5] = {"Amber Lee, VP"}
+employee_database[9] = {"Catherine Snow, CFO"}
+
+# TODO: Print the initial employee database
+print("Initial Employee Database:")
+for id, employee in employee_database.items():
+    print(f"{id}: {employee}")
+
+# TODO: Update the role of an employee in the database
+employee_database[9] = {"Catherine Snow, CTO"}
+
+# TODO: Print the database after the employee role update
+print("\nUpdated Employee Database:")
+for id, employee in employee_database.items():
+    print(f"{id}: {employee}")
+
+# TODO: Remove an employee from the database
+del employee_database[5]
+
+# TODO: Print the final employee database after the removal
+print("\nFinal Employee Database:")
+for id, employee in employee_database.items():
+    print(f"{id}: {employee}")
