@@ -1,4 +1,4 @@
-# codeSignal_ex_employee_database
+# Python_dictionary_employee_database
 
 In our HR system, we maintain an employee database. Each employee is assigned a unique ID, and their role is tracked against this ID in a Python dictionary, which constitutes our hash table. Your task is to create an initial database with various roles, then simulate a scenario involving a promotion and an employee departure while updating the database accordingly.
 
